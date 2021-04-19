@@ -11,14 +11,14 @@ config = {
     # Token bota, niezbędny do zalogowania się do serwisu Discord.
     # Wygenerujesz go na stronie discord.com/developers
     "KARTONBOT_TOKEN":
-    "ODAzOTQ1NDg4NDk1NTQyMjcz.YBFKlQ.E7TsPlkFjiNUiYrz65tGtYgYwS8",
+    "typeyourtokenhere",
 
     # Lista "permanentnych administratorów" Kartonbota.
     # Składa się z nazw i tagów użytkowników odzielanych dwukropkami.
     # Permanentny administrator otrzymuje uprawnienia administratora przy starcie bota i nie da się mu
     # ich w żaden sposób odebrać.
     "KARTONBOT_ADMINS":
-    "Deru#1970"
+    "typeyourusernamehere#0000"
 
 }
 
