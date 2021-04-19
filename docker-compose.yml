@@ -7,8 +7,8 @@ services:
             context: .
         restart: on-failure
         environment:
-            - KARTONBOT_TOKEN: typeyourtokenhere
-            - KARTONBOT_ADMIN: typeyourusernamehere#0000
+            KARTONBOT_TOKEN: typeyourtokenhere
+            KARTONBOT_ADMIN: typeyourusernamehere#0000
         volumes:
             - kartonbotvol:/opt/kartonbot
 
