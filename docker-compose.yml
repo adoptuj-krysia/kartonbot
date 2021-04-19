@@ -1,0 +1,16 @@
+version: "3.7"
+
+services:
+    kartonbot:
+        build:
+            dockerfile: kartonbot.Dockerfile
+            context: .
+        restart: on-failure
+        environment:
+            - KARTONBOT_TOKEN: typeyourtokenhere
+            - KARTONBOT_ADMIN: typeyourusernamehere#0000
+        volumes:
+            - kartonbotvol:/opt/kartonbot
+
+volumes:
+    kartonbotvol: {}
