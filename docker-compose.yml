@@ -7,6 +7,7 @@ services:
             context: .
         restart: on-failure
         environment:
+            PYTHONUNBUFFERED: 1
             KARTONBOT_TOKEN: typeyourtokenhere
             KARTONBOT_ADMIN: typeyourusernamehere#0000
         volumes:
