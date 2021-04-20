@@ -9,7 +9,7 @@ services:
         environment:
             PYTHONUNBUFFERED: 1
             KARTONBOT_TOKEN: typeyourtokenhere
-            KARTONBOT_ADMIN: typeyourusernamehere#0000
+            KARTONBOT_ADMINS: typeyourusernamehere#0000
         volumes:
             - kartonbotvol:/opt/kartonbot
 
