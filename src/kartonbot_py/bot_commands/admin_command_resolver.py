@@ -27,7 +27,7 @@ class AdminCommandResolver:
             embed.add_field(name="!kartonbot admin deop Nick", value="odbiera uprawnienia administratora użytkownikowi o danym nicku")
             embed.add_field(name="!kartonbot admin op Nick", value="nadaje uprawnienia administratora użytkownikowi o danym nicku (użytkownik musi wcześniej choć raz użyć KartonBota)")
             embed.add_field(name="!kartonbot admin mythicaldebian", value="wyświetla legendarnego mitycznego fioletowego Sławka")
-            await message.channel.send(embed=embed)
+            await message.author.send(embed=embed)
 
         elif message.content.startswith("!kartonbot admin mock"):
             command_splitted = message.content.split(' ')
